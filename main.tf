@@ -3,4 +3,5 @@ resource "github_issue_label" "test_repo" {
   repository = each.key
   name       = var.label_name
   color      = var.label_color
+  description = var.label_name
 }
