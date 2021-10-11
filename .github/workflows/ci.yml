@@ -74,4 +74,4 @@ jobs:
       - name: Terraform - applying in test organization
         id: apply        
         working-directory: ./how-to-use-this-module
-        run: terraform apply -auto-approve -no-color
+        run: terraform apply -auto-approve -no-color -destroy
