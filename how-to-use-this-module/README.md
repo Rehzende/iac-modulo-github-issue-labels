@@ -28,10 +28,13 @@ terraform init
 
 Personalize o `terrafile.tf`:
 ```
-organization = "seu-time"
-team_members = ["user1", "user2"]
-team_name    = "developers"
+name  = "Dificuldade: Avançado"
+color = "fef2c0"
+description = " "
 ```
+Veja alguns exemplos de labls aqui:
+
+[Exemplo de Labels]("https://github.com/ManageIQ/guides/blob/master/labels.md")
 
 Tente criar o primeiro plan:
 ```
